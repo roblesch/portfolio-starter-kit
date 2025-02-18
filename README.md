@@ -25,8 +25,8 @@ generate_feeds = true
 feed_filenames = ["rss.xml"]
 
 [extra]
-github_url = "https://github.com/roblesch/zola-portfolio-starter-kit"
-repo_url = "https://github.com/roblesch/zola-portfolio-starter-kit"
+github_url = "https://github.com/link-to-your-github"
+repo_url = "https://github.com/link-to-your-repo"
 ```
 
 3. (Optional) Copy example pages.
