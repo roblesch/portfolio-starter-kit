@@ -38,7 +38,7 @@ mkdir -p content && cp -r themes/portfolio-starter-kit/content/* content/
 ## Run the Server
 
 ```sh
-zola serve & tailwindcss -i themes/portfolio-starter-kit/templates/global.css -o public/global.css --watch
+zola serve && tailwindcss -i themes/portfolio-starter-kit/templates/global.css -o public/global.css --watch
 ``` 
 
 ## References
