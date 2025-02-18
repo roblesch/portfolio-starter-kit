@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<section>
+  <h1 class="mb-8 text-2xl font-semibold tracking-tighter">
+    {{ section.title }}
+  </h1>
+  <p class="mb-4">
+    {{ section.content | safe }}
+  </p>
+  <div class="my-8">
+    {% include "components/posts.html" %}
+  </div>
+</section>
+{% endblock content %}

@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<section>
+  <h1 class="title font-semibold text-2xl tracking-tighter">{{ page.title }}</h1>
+  <div class="flex justify-between items-center mt-2 mb-8 text-sm">
+    <p class="text-sm text-neutral-600 dark:text-neutral-400">{{ page.date |
+      date(format="%B %e, %Y") }}</p>
+  </div>
+  <article class="prose">
+    {{ page.content | safe }}
+  </article>
+</section>
+{% endblock content %}
