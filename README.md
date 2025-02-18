@@ -3,6 +3,8 @@
 A [zola](https://github.com/getzola/zola) + [Tailwind CSS](https://tailwindcss.com/) port of the 
 Vercel [Portfolio Starter Kit](https://vercel.com/templates/next.js/portfolio-starter-kit).
 
+![image](https://github.com/user-attachments/assets/739812bd-8197-420c-9500-fea4b9f93101)
+
 ## Dependencies
 
 - [`zola`](https://github.com/getzola/zola/releases) >= 19.0.2
